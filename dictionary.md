@@ -1,4 +1,5 @@
 **Adversarial example**
+
 An input edited with some human-unnoticeable perturbation causing it to be misclassified by the system. 
 
 Examples that count as adversarial examples:
@@ -11,6 +12,7 @@ Examples that do not count as adversarial examples:
 * Putting a political sticker on a road sign causing a Tesla to crash (even if it's intentional)
 * Removing the road sign causing the Tesla to crash
 * Making an elaborate chalk drawing causing a cartoonish optical illusion of the road veering off
+
 
 
 **Module**
