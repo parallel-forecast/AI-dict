@@ -32,14 +32,16 @@ plugins:
 remote_theme: pmarsceill/just-the-docs
 
 permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+exclude: ["node_modules/", "*.gemspec", "*.gem", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+
+# "Gemfile", "Gemfile.lock",
 
 # Enable or disable the site search
 search_enabled: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "AI Forecasting Resolution Dictionary on GitHub":
+  "AI Resolution Dictionary on GitHub":
     - "//github.com/parallel-forecast/AI-dict"
 
 # Color scheme currently only supports "dark" or nil (default)
