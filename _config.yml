@@ -27,6 +27,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 remote_theme: pmarsceill/just-the-docs
 
@@ -43,14 +44,6 @@ aux_links:
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
-
-plugins:
-  - jekyll-seo-tag
-
-social-icons:
- - title: GitHub
-   url: https://github.com/davidensinger
-   class: activity
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
