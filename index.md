@@ -9,7 +9,7 @@ permalink: /
 # Scalable, collaborative resolution standards
 {: .fs-9 }
 
-The **Technical AI Forecasting Resolution Dictionary** is a set of standards and conventions for precisely interpreting AI and auxiliary terms.
+The **AI Forecasting Resolution Dictionary** is a set of standards and conventions for precisely interpreting AI and auxiliary terms.
 {: .fs-6 .fw-300 }
 
 [Browse the Dictionary](/docs/dictionary){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Contribute](#contributing){: .btn .fs-5 .mb-4 .mb-md-0 }
