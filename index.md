@@ -1,10 +1,10 @@
----
+<!-- ---
 layout: default
 title: Home
 nav_order: 1
 description: "The **Technical AI Forecasting Resolution Dictionary** is a set of standards and conventions for precisely interpreting AI and auxiliary terms."
 permalink: /
----
+--- -->
 
 # Scalable, collaborative resolution standards
 {: .fs-9 }
