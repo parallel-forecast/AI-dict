@@ -23,13 +23,11 @@ github_username:  parallel-forecast
 
 # Build settings
 markdown: kramdown
-#theme: "just-the-docs" # minima
+theme: "just-the-docs" # minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-seo-tag
-
-remote_theme: pmarsceill/just-the-docs
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
