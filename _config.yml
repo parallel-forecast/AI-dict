@@ -23,7 +23,8 @@ github_username:  parallel-forecast
 
 # Build settings
 markdown: kramdown
-theme: "just-the-docs" # minima
+remote_theme: pmarsceill/just-the-docs
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
