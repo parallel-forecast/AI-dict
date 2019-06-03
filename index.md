@@ -30,7 +30,7 @@ When writers don’t have to reinvent the wheel whenever they operationalise a n
 
 Capturing what matters in a detailed, technical question is hard. We can make that high initial cost worth it by ensuring it is broadly used and built upon.
 
-### Stable and flexible
+### Stable yet flexible
 
 Drawing upon best practices for software version management, we can allow resolution conditions that change and improve over time while maintaining the precision necessary for quantitative reasoning.
 
