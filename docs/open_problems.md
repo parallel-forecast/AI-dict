@@ -27,7 +27,7 @@ ___
 
 ### How we should we deal with big, vague, important terms?
 
-*Discuss this problem in [this GitHub issue]().*
+*Discuss this problem in [this GitHub issue](https://github.com/parallel-forecast/AI-dict/issues/3).*
 
 A key example here is "AGI", which can be interpreted in many different ways.
 Approaches include:
