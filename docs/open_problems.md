@@ -60,7 +60,7 @@ ___
 
 ### How we should we deal with terms with free variables?
 
-*Discuss this problem in [this GitHub issue]().*
+*Discuss this problem in [this GitHub issue](https://github.com/parallel-forecast/AI-dict/issues/4).*
 
 Consider the Open Philanthropy Project's [sample definition](https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/ai-timelines#What_are_we_trying_to_forecast) of "high-level machine
 intelligence" (HLMI):
