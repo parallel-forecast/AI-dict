@@ -45,7 +45,7 @@ adversarial examples by 2023. [ai-dict-v2]`
 
 `Will there be a superhuman Starcraft agent trained using less than $10.000 of publicly available compute by 2025? [ai-dict-v1.0.4]`
 
-More details can be found [here](http://localhost:4000/docs/guidelines/#usage).
+More details can be found [here](AI-dict/docs/guidelines/#usage).
 
 ---
 

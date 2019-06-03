@@ -19,7 +19,7 @@ nav_order: 2
 ### Actor, single
 
 * Recognised legal entity, including but not limited to a...
-    * For-profit firm (including [capped-profit structures](https://ai.metaculus.com/questions/133/by-end-of-2019-will-openai-be-valued-at-more-than-3-billion/))
+    * For-profit firm (including [capped-profit structures](https://web.archive.org/web/20190430053255/https://openai.com/blog/openai-lp/))
     * Non-profit
     * Government
     * University
@@ -66,7 +66,7 @@ A job is automatable at a time t if a machine can outperform the median-skilled 
 Unless otherwise specified, the date of automation will taken to be the first time this threshold is crossed.
 
 Examples:
-* As of 2019, [Elevator Operator](https://qz.com/932516/over-the-last-60-years-automation-has-totally-eliminated-just-one-us-occupation/)
+* As of 2019, [Elevator Operator](https://web.archive.org/web/20190318031620/https://qz.com/932516/over-the-last-60-years-automation-has-totally-eliminated-just-one-us-occupation/)
 
 Non-examples:
 * As of 2019, Ambulance Driver
@@ -111,13 +111,9 @@ Non-examples:
 
 ___
 
-### High-level machine intelligence
-
-___
-
 ### Job
 
-One of the occupations [listed by the U.S. Bureau of Labor Statistics](https://www.bls.gov/oes/current/oes_stru.htm#00-0000).
+One of the occupations [listed by the U.S. Bureau of Labor Statistics](https://web.archive.org/web/20190514175951/https://www.bls.gov/oes/current/oes_stru.htm).
 
 Examples:
 * Web Developer
