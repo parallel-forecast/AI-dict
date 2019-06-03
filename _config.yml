@@ -1,18 +1,3 @@
-title: AI Dictionary
-email: hello@parallelforecast.com
-description: >- # this means to ignore newlines until "baseurl:"
-  The Technical AI Forecasting Resolution Dictionary is a set of standards and conventions for precisely interpreting AI terms.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://parallel-forecast.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  parallel-forecast
-
-# Set theme
 remote_theme: pmarsceill/just-the-docs
 
-# Enable or disable the site search
-search_enabled: true
-
-# Aux links for the upper right navigation
-aux_links:
-  "AI Resolution Dictionary on GitHub":
-    - "//github.com/parallel-forecast/AI-dict"
+# theme: jekyll-theme-cayman
