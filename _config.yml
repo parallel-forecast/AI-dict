@@ -7,8 +7,8 @@ title: AI Dictionary
 email: hello@parallelforecast.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Technical AI Forecasting Resolution Dictionary is a set of standards and conventions for precisely interpreting AI terms.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://parallel-forecast.github.io/AI-dict/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/AI-dict" # the subpath of your site, e.g. /blog
+url: "https://parallel-forecast.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  parallel-forecast
 
 # Enable or disable the site search

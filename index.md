@@ -12,7 +12,7 @@ permalink: /
 The **AI Forecasting Resolution Dictionary** is a set of standards and conventions for precisely interpreting AI and auxiliary terms.
 {: .fs-6 .fw-300 }
 
-[Browse the Dictionary](/docs/dictionary){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Contribute](#contributing){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Browse the Dictionary](/AI-dict/docs/dictionary){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Contribute](#contributing){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -59,11 +59,11 @@ The Dictionary is distributed by an [MIT license](https://github.com/parallel-fo
 
 ### Contributing
 
-We welcome contributions, as long as they follow [our guidelines](/docs/guidelines). You can do so via:
+We welcome contributions, as long as they follow [our guidelines](/AI-dict/docs/guidelines). You can do so via:
 * A pull-request in our [GitHub Repo](https://github.com/parallel-forecast/AI-dict) ([What does this mean?](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork))
 * By making a suggestion in the [Google Doc version of the Dictionary](https://docs.google.com/document/d/1faRzWgu9AP7qOZ5PfIE1_yVAzf1nJOjslzPwUhXDanc/edit?usp=sharing)[^1]
 
-You can also check out the [Open Problems](/docs/open_problems) for discussion of more high-level
+You can also check out the [Open Problems](/AI-dict/docs/open_problems) for discussion of more high-level
 design issues.
 
 ### Contact
