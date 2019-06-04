@@ -76,7 +76,7 @@ by analyzing how often big experiments are run, rather than what the key drivers
 
 ### Failed parameter tuning
 
-Any [free variables](AI-dict/docs/open_problems/#how-should-we-deal-with-terms-with-free-variables) are set to values which do not maximise uncertainty.
+Any [free variables](/AI-dict/docs/open_problems/#how-should-we-deal-with-terms-with-free-variables) are set to values which do not maximise uncertainty.
 
 **Examples**
 
