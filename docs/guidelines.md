@@ -29,7 +29,7 @@ compatibility is critical.
 
 This site displays the latest release, currently: {{ site.version }}
 
-{% assign vX = site.version | slice: 0 | plus: 0 %}
+{% assign vX = site.version | slice: 1 | plus: 0 %}
 {% if vX < 1 %}
 *Please note that this version of the Dictionary is not yet stable, and we are
 still figuring out proper guidelines in preparation for Version 1.0.*
