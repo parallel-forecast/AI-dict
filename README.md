@@ -1,7 +1,7 @@
 
 # Scalable, collaborative resolution standards
 
-The [**AI Forecasting Resolution Dictionary**](https://parallel-forecast.github.io/AI-dict/) is a set of standards and conventions for precisely interpreting AI and auxiliary terms.
+The [**AI Forecasting Resolution Dictionary**](https://parallel-forecast.github.io/AI-dict/) is {{ site.description }}
 
 ---
 

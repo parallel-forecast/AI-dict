@@ -27,10 +27,13 @@ To deal with this we use [Semantic Versioning 2.0.0](https://semver.org/),
 a set of standards used for managing software packages, where ensuring
 compatibility is critical.
 
-This site displays the latest release, currently: 0.2.0.
+This site displays the latest release, currently: {{ site.version }}
 
+{% assign vX = site.version | slice: 0 | plus: 0 %}
+{% if vX < 1 %}
 *Please note that this version of the Dictionary is not yet stable, and we are
 still figuring out proper guidelines in preparation for Version 1.0.*
+{% endif %}
 
 Legacy releases can be found in our [GitHub Repo](https://github.com/parallel-forecast/AI-dict/releases).
 

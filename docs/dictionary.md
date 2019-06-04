@@ -5,7 +5,7 @@ nav_order: 2
 
 ---
 
-# Dictionary
+# Dictionary {{ site.version }}
 {: .no_toc }
 
 ## Table of contents

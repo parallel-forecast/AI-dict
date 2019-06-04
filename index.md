@@ -2,14 +2,13 @@
 layout: default
 title: Home
 nav_order: 1
-description: "The **Technical AI Forecasting Resolution Dictionary** is a set of standards and conventions for precisely interpreting AI and auxiliary terms."
 permalink: /
 ---
 
 # Scalable, collaborative resolution standards
 {: .fs-9 }
 
-The **AI Forecasting Resolution Dictionary** is a set of standards and conventions for precisely interpreting AI and auxiliary terms.
+The **AI Forecasting Resolution Dictionary** is {{ site.description }}
 {: .fs-6 .fw-300 }
 
 [Browse the Dictionary](/AI-dict/docs/dictionary){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Contribute](#contributing){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -21,6 +20,7 @@ The **AI Forecasting Resolution Dictionary** is a set of standards and conventio
 The future is big. To model and forecast it, we’re going to need to put probabilities on *a lot* of questions.
 
 The AI Dictionary is one piece of the puzzle for unlocking economies-of-scale for AI forecasting.
+
 
 ### Low overhead
 
@@ -52,6 +52,7 @@ More details can be found [here](AI-dict/docs/guidelines/#usage).
 ## About
 
 The Dictionary is &copy; 2019 by [Parallel, LLC](https://parallelforecast.com/#/).
+The latest release is {{ site.version }}.
 
 ### License
 
