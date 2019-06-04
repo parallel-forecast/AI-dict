@@ -11,6 +11,12 @@ search_exclude: true
 This page lists recommendations and common failure modes involved in crafting good forecasting questions.
 {: .fs-6 .fw-300 }
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ___
 
 ## Failure modes of operationalization
