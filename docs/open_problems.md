@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Open problems
-nav_order: 5
+nav_order: 6
 search_exclude: true
 ---
 
@@ -58,7 +58,7 @@ object-oriented programming.
 
 ___
 
-### How we should we deal with terms with free variables?
+### How should we deal with terms with free variables?
 
 *Discuss this problem in [this GitHub issue](https://github.com/parallel-forecast/AI-dict/issues/4).*
 

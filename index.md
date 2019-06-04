@@ -17,10 +17,15 @@ The **AI Forecasting Resolution Dictionary** is {{ site.description }}
 
 ## Why build a dictionary?
 
-The future is big. To model and forecast it, we’re going to need to put probabilities on *a lot* of questions.
+The future is big.
 
-The AI Dictionary is one piece of the puzzle for unlocking economies-of-scale for AI forecasting.
+1. To model it, we’re going to need to forecast *a lot* of questions.
 
+2. Yet the task of ‘operationalization’ -- making a vague question specific enough it can be tied to real world events -- is hard, and currently done in a siloed, highly time-consuming manner.
+
+3. So in order to forecast AI we must achieve economies-of-scale -- making it cheap to write and answer the marginal question by efficiently reusing work across them.
+
+Building a Dictionary is a piece of the puzzle to do this.
 
 ### Low overhead
 
@@ -28,7 +33,7 @@ When writers don’t have to reinvent the wheel whenever they operationalise a n
 
 ### High signal
 
-Capturing what matters in a detailed, technical question is hard. We can make that high initial cost worth it by ensuring it is broadly used and built upon.
+There are a number of [common pitfalls](/AI-dict/docs/best-practices) that can make a seemingly valid question ambiguous or misleading. Carefully avoiding these comes with a high initial cost -- and we can make that worth it by ensuring the work is broadly used and built upon.
 
 ### Stable yet flexible
 
@@ -36,7 +41,7 @@ Drawing upon best practices for software version management, we can allow resolu
 
 ## How do I use the Dictionary?
 
-Simply write a question relying on definitions from the Dictionary, and appending the tag [ai-dict-vX.Y.Z] at the end of the relevant string, or somewhere in an accompanying description.
+Simply write a question relying on definitions from the Dictionary, and append the tag [ai-dict-vX.Y.Z] (by the question title or somewhere in an accompanying description).
 
 For example:
 
@@ -45,7 +50,7 @@ adversarial examples by 2023. [ai-dict-v2]`
 
 `Will there be a superhuman Starcraft agent trained using less than $10.000 of publicly available compute by 2025? [ai-dict-v1.0.4]`
 
-More details can be found [here](AI-dict/docs/guidelines/#usage).
+More details can be found [here](/AI-dict/docs/guidelines/#usage).
 
 ---
 
