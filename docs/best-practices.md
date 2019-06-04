@@ -30,7 +30,8 @@ Edge-case resolutions that technically satisfy the description as written, yet f
 
 Positively resolving the question:
 ```
-Will there be an incident causing the loss of human life in the South China Sea (a highly politically contested sea in the pacific ocean) by 2018?”
+Will there be an incident causing the loss of human life in the
+South China Sea (a highly politically contested sea in the pacific ocean) by 2018?
 ```
 by having a battleship accidentally run over a fishing boat. (This is adapted from an actual question used by the Good Judgment Project.)
 
@@ -45,11 +46,12 @@ by the US government nationalising Ford for auto manufacturing reasons, yet Ford
 
 An unrelated causal pathway to resolution “screens off” the intended pathways.
 
-**Examples:**
+**Examples**
 
 Forecasting
 ```
-When will there be a superhuman Angry Birds agent using no hardcoded knowledge?
+When will there be a superhuman Angry Birds agent using no hardcoded
+knowledge?
 ```
 and realizing that there seems to be little active interest in the yearly benchmark competition (with performance even declining over years). This means that the probability entirely depends on whether anyone with enough money and competence decides to work on it, as opposed to what key components make Angry Birds difficult (e.g. physics-based simulation) and how fast progress is in those domains.
 
@@ -61,7 +63,8 @@ by analyzing OpenAI’s decision on whether or not to build a new agent, rather 
 
 Forecasting
 ```  
-Will there have been a 2-year interval where the amount of training compute used in the largest AI experiment did not grow 32x, before 2024?
+Will there have been a 2-year interval where the amount of training
+compute used in the largest AI experiment did not grow 32x, before 2024?
 ```
 by analyzing how often big experiments are run, rather than what the key drivers of the trend are (e.g. parallelizability and compute economics) and how they will change in future.
 
@@ -73,7 +76,8 @@ Any [free variables](AI-dict/docs/open_problems/#how-should-we-deal-with-terms-w
 
 Having the answer to:
 ```  
-When will 100% of jobs be automatable at a performance close to the median employee and cost <10,000x of that employee?
+When will 100% of jobs be automatable at a performance close to the
+median employee and cost <10,000x of that employee?
 ```
 be very different from using the parameter 99.999%, as certain edge-case jobs ("underwater basket weaving") as surprisingly hard to automate but for non-interesting reasons.
 
