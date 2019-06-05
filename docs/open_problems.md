@@ -79,17 +79,8 @@ Restrict all future use cases to a particular parameterization.
 
 **Option 2**
 
-Allow functions in the dictionary, e.g. listing the term as:
-
-```
-HLMI(percentage, months, cost-multiple)
-```
-
-and writing questions as:
-
-```
-By 2029, will we have HLMI(0.95, 6, 10000)? [ai-dict-v1]
-```
+Allow functions in the dictionary, e.g. listing the term as: ```HLMI(percentage, months, cost-multiple)```
+and writing questions as: ```By 2029, will we have HLMI(0.95, 6, 10000)? [ai-dict-v1]```
 ___
 
 ### What is the right long-term data structure for storing the dictionary?
