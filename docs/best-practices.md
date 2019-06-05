@@ -85,7 +85,7 @@ Having the answer to:
 When will 100% of jobs be automatable at a performance close to the
 median employee and cost <10,000x of that employee?
 ```
-be very different from using the parameter 99.999%, as certain edge-case jobs ("underwater basket weaving") as surprisingly hard to automate but for non-interesting reasons.
+be very different from using the parameter ```99.999%```, as certain edge-case jobs ("underwater basket weaving") as surprisingly hard to automate but for non-interesting reasons.
 
 Asking:
 ```

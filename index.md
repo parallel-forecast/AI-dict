@@ -67,7 +67,7 @@ The Dictionary is distributed by an [MIT license](https://github.com/parallel-fo
 ### Contributing
 
 We welcome contributions, as long as they follow [our guidelines](/AI-dict/docs/guidelines). You can do so via:
-* A pull-request in our [GitHub Repo](https://github.com/parallel-forecast/AI-dict) ([What does this mean?](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork))
+* A pull-request in our [GitHub Repo](https://github.com/parallel-forecast/AI-dict), to the file ```/docs/dictionary.md``` ([What does this mean?](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork))
 * By making a suggestion in the [Google Doc version of the Dictionary](https://docs.google.com/document/d/1faRzWgu9AP7qOZ5PfIE1_yVAzf1nJOjslzPwUhXDanc/edit?usp=sharing)[^1]
 
 You can also check out the [Open Problems](/AI-dict/docs/open_problems) for discussion of more high-level
