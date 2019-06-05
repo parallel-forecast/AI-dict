@@ -17,9 +17,9 @@ This annotates: ```search-data.json```:
   {% assign comma = false %}
     {% for page in site.html_pages %}{% if page.search_exclude != true %}
 ```
-    In order to extract the markdown headings from the file, without clogging it up
-    with HTML tags, with replace the headings with a non-HTML substitute, clean up,
-    and then add them back in.
+In order to extract the markdown headings from the file, without clogging it up
+with HTML tags, with replace the headings with a non-HTML substitute, clean up,
+and then add them back in.
 ```
     {% assign preprocessed_content=page.content | replace: '<h3', '__h__' %}
     {% assign preprocessed_content=preprocessed_content | replace: '</h3', '__/h__' %}
