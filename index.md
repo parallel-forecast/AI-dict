@@ -3,6 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 permalink: /
+search_exclude: true
 ---
 
 # Scalable, collaborative resolution standards
