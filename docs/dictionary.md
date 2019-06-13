@@ -101,7 +101,7 @@ ___
 Any item in:
 * Blog-post co-authored by at least one of the researchers
 * Pre-print posted to arXiv or similar
-* Peer-reviewed paper
+* Peer-reviewed (published) paper
 * Second-hand report from a trusted source providing at least as much information as
 the median acceptable blog post
 
