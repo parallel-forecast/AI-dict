@@ -26,7 +26,17 @@ fail to capture the important, intended uncertainty. (Note that the below exampl
 
 ### Ambiguity
 
-Terms that can have many different meanings, such as "AGI" or "hardcoded knowledge".
+Terms that can have many different meanings, such as "AGI" or "hardcoded knowledge". 
+
+### Underspecification
+
+Resolution criteria that neglects to specify how questions should be resolved in possible scenarios. 
+
+**Examples**
+```
+This questions resolves positively if an article in a reputable journal article finds that ommerically-available automated speech recognition is better than human speech recognition (in the sense of having a lower transcribing error rate). 
+```
+if a journal article is published that finds that in only in some domains commerically-available automated speech recognition is better, but worse in most other domains, it is unclear from the resolution criteria how this question should be resolved.  
 
 ### Spurious resolutions
 
@@ -46,7 +56,6 @@ Positively resolving the question:
 Will an AI lab have been nationalized by 2024?
 ```
 by the US government nationalising Ford for auto manufacturing reasons, yet Ford nonetheless having a self-driving car research division.
-
 
 ### Trivial pathways
 
