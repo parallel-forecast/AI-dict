@@ -146,6 +146,30 @@ Non-examples:
 
 ___
 
+### Transformative Artificial Intelligence
+
+AI that precipitates a transition comparable to (or more significant than) the agricultural or industrial revolution. (As suggested by [Karnofsky (2016)](https://www.openphilanthropy.org/blog/some-background-our-views-regarding-advanced-artificial-intelligence#Sec1).)
+
+Note that a TAI system is not necessarily an AGI system, as long as its impact mediated by narrow capabilities is sufficiently transformative (as was e.g. the case for inventions during the original agricultural and industrial revolutions). 
+
+Examples:
+* AI systems capable of fulfilling all the necessary functions of human scientists, unaided by humans, in developing another technology (or set of technologies) that ultimately becomes widely credited with being the most significant driver of a transition comparable to (or more significant than) the agricultural or industrial revolution. Note that just because AI systems *could* accomplish such a thing unaided by humans doesn’t mean they *would*; it’s possible that human scientists would provide an important complement to such systems, and could make even faster progress working in tandem than such systems could achieve unaided. 
+
+Karnofsky (2016) emphasizes the hypothetical possibility of AI systems conducting substantial unaided research to draw a clear distinction from the types of AI systems that exist today. He believes that AI systems capable of such broad contributions to the relevant research would likely dramatically accelerate it.
+
+* AI systems capable of performing tasks that in 2016 accounted for the majority of full-time [jobs](#job) worldwide, and/or over 50% of total world wages, unaided and for costs in the same range as what it would cost to employ humans. 
+
+Aside from the fact that this would likely be sufficient for a major economic transformation relative to today, Karnofsky (2016) also thinks that an AI with such broad abilities would likely be able to far surpass human abilities in a subset of domains, making it likely to meet one or more of the other criteria laid out here.
+
+* Surveillance, autonomous weapons, or other AI-centric technology that becomes sufficiently advanced to be the most significant driver of a transition comparable to (or more significant than) the agricultural or industrial revolution. 
+
+(This contrasts with the first point because it refers to transformative technology that is itself AI-centric, whereas the first point refers to AI used to speed research on some other transformative technology.)
+
+Non-examples:
+* Any AI system that exists as of 2019.
+
+___
+
 ### Years of experience used by an algorithm
 
 The number of human-year-equivalents used in training by an algorithm. This metric mostly makes sense for domains with a defined realtime speed (e.g. games like Starcraft or Dota), but can also be extended to other domains (e.g. one might estimate the average time of a Go move to do the calculation for AlphaGo).
