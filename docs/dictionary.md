@@ -111,6 +111,18 @@ Non-examples:
 
 ___
 
+### High-level machine intelligence
+
+(As suggested by [Muehlhauser (2016)](https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/ai-timelines#What_are_we_trying_to_forecast).)
+
+A system is a high-level machine intelligence if it can be used to [Automate](#automatable) at least 95% of [Jobs](#job).
+
+Examples:
+
+Non-examples:
+
+___
+
 ### Human-machine intelligence parity
 
 (As suggested by [Aguirre (2016) in a previous question on forecasting platform Metaculus](https://web.archive.org/web/20161204093931/https://www.metaculus.com/questions/384/human-machine-intelligence-parity-by-2040/).)
