@@ -111,6 +111,21 @@ Non-examples:
 
 ___
 
+### Human-machine intelligence parity
+
+(As suggested by [Aguirre (2016) in a previous question on forecasting platform Metaculus](https://web.archive.org/web/20161204093931/https://www.metaculus.com/questions/384/human-machine-intelligence-parity-by-2040/).)
+
+Human-machine intelligence parity is said to have been reached if there is a machine system which outscores at least two of the three humans on the following generalized intelligence test:
+
+> A team of three expert interviewers will interact with a candidate machine system (MS) and three humans (3H). The humans will be graduate students in each of physics, mathematics and computer science from one of the top 25 research universities (per some recognized list), chosen independently of the interviewers. The interviewers will electronically communicate (via text, image, spoken word, or other means) an identical series of exam questions of their choosing over a period of two hours to the MS and 3H, designed to advantage the 3H. Both MS and 3H have full access to the internet, but no party is allowed to consult additional humans, and we assume the MS is not an internet-accessible resource. The exam will be scored blindly by a disinterested third party
+
+Examples: 
+
+Non-examples:
+* Any actually implemented system, as of 2019. 
+
+___
+
 ### Job
 
 One of the occupations [listed by the U.S. Bureau of Labor Statistics](https://web.archive.org/web/20190514175951/https://www.bls.gov/oes/current/oes_stru.htm).
