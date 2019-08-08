@@ -3,7 +3,7 @@ remote_theme: pmarsceill/just-the-docs
 
 # theme: jekyll-theme-cayman
 
-title: AI Dictionary
+title: AI Forecasting Dictionary
 email: hello@parallelforecast.com
 description: >- # this means to ignore newlines until "baseurl:"
   a set of standards and conventions for precisely interpreting AI and auxiliary terms.
