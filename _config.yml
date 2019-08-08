@@ -10,7 +10,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/AI-dict" # the subpath of your site, e.g. /blog
 url: "https://parallel-forecast.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  parallel-forecast
-version: v0.2.0
+version: v0.3.0
 
 # Enable or disable the site search
 search_enabled: true
