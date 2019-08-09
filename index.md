@@ -9,7 +9,7 @@ search_exclude: true
 # Scalable, collaborative resolution standards
 {: .fs-9 }
 
-The **AI Forecasting Resolution Dictionary {{ site.version }}** is {{ site.description }}
+The **AI Forecasting Dictionary {{ site.version }}** is {{ site.description }}
 {: .fs-6 .fw-300 }
 
 [Browse the Dictionary](/AI-dict/docs/dictionary){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Contribute](#contributing){: .btn .fs-5 .mb-4 .mb-md-0 }
