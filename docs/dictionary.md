@@ -132,7 +132,7 @@ ___
 
 ### Compute, Total needed
 
-*See also: [Compute, training](#compute,-training), [Compute, training](#compute,-architecture-search), [Compute, training](#compute,-hyperparameter-search)*
+*See also: [Compute, training](#compute-training), [Compute, training](#compute-architecture-search), [Compute, training](#compute-hyperparameter-search)*
 
 The sum of the compute for architecture search, hyperparameter search, and training as defined above.
 
