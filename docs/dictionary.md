@@ -72,6 +72,20 @@ Non-examples:
 * As of 2019, Ambulance Driver
 * As of 2019, Epidemiologist
 
+This includes either actual elimination of such jobs at costs less than those quoted above, or the ability to replace all aspects of the job, making full replacement possible. For instance, self-driving trucks which cannot load or unload deliveries would potentially make most freight truck jobs (NAICS code 4841) automatable, but would not make specialized trucking (NAICS code 4842,) such as home moving company drivers (NAICS code 484210) automatable.
+(See: https://www.naics.com/naics-code-description/?code=484)
+
+___
+
+### Collective Service
+
+A composition of narrow AI systems or modules (as defined in the dictionary) that in combination performs a specific task at a human level, without any single system that can perform tasks at a human level. 
+
+Examples: 
+* A self-driving car composed of (1) a module that plans routes and outputs , (2) a module that ingests information and updates an environment, perhaps shared between cars, and (3) a module that drives the car along a route provided by module 1, while avoiding obstacles in the environment provided by module 2, is a collective service that allows self-driving cars despite each module being distinct.
+
+Non-examples:
+
 ___
 
 ### Compute, training
@@ -96,14 +110,56 @@ Non-examples:
 
 ___
 
-### Credible report of AI system
+### Compute, architecture search
+
+The amount of compute used testing or training different architectures before the eventually trained module’s structure is deployed or trained. (This is exclusive of the hyperparameter search and the final system training time.)
+
+Examples:
+
+Non-examples:
+
+___
+
+### Compute, hyperparameter search
+
+The amount of compute used testing or training with different hyperparameters before the eventually trained module is deployed or trained. (This is exclusive of the final system training time.)
+
+Examples:
+
+Non-examples:
+
+___
+
+### Compute, Total needed
+
+*See also: [Compute, training](#compute,-training), [Compute, training](#compute,-architecture-search), [Compute, training](#compute,-hyperparameter-search)*
+
+The sum of the compute for architecture search, hyperparameter search, and training as defined above.
+
+Examples:
+
+Non-examples:
+
+___
+
+### Credible technical announcement
 
 Any item in:
 * Blog-post co-authored by at least one of the researchers
-* Pre-print posted to arXiv or similar
+* Pre-print posted to arXiv or similar (that most researchers see as credible, or along with a working example of outputs or demo version of the system)
 * Peer-reviewed (published) paper
 * Second-hand report from a trusted source providing at least as much information as
 the median acceptable blog post
+
+Examples:
+
+Non-examples:
+
+___
+
+### Credible media report
+
+An outlet widely viewed as a credible source publishes a news article that attests to something having happened. (Note: announcing that a researcher or company claims something, is potentially a [Credible technical announcement](#credible-technical-announcement), but not a credible media report in this sense.)
 
 Examples:
 
