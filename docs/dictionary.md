@@ -88,6 +88,20 @@ Non-examples:
 
 ___
 
+### Compute, operational
+
+Amount of compute used to deploy a trained model, in petaflop/s. 
+
+This is exclusive of compute used to further improve the system, but not compute used to maintain the system’s viability. 
+
+Examples: 
+* A self-driving car may ingest environmental data to update its environment model to avoid obstacles, and that process is necessary for operation. 
+
+Non-examples: 
+* A self-driving car may use experience to improve driving in the future, but this is not necessary for its operation.
+
+___
+
 ### Compute, training
 
 Amount of compute used to train a particular architecture, measured in petaflop/s-days,
