@@ -56,6 +56,27 @@ Non-examples:
 * Removing the road sign causing the Tesla to crash
 * Making an elaborate chalk drawing causing a cartoonish optical illusion of the road veering off
 
+
+___
+
+### Artificial General Intelligence (Unclear / Disputed)
+
+An artificial intelligence system that has capabilities similar to that of humans, 
+including the ability to learn arbitrary new tasks and perform them.
+
+Examples:
+* Hypothesized future systems that think and act similarly to humans, are agentic, 
+with articulable goals. They are capable of performing any individual task or job 
+a human would do, including creative or abstract thought.
+
+Unclear:
+* Comprehensive AI Services capable of performing every human job or task
+* Systems able to learn any one human task or job, including high level or creative 
+ones, but that are not able to adapt or learn.
+
+Non-examples:
+* Any currently extant system
+
 ___
 
 ### Automatable
@@ -77,14 +98,19 @@ This includes either actual elimination of such jobs at costs less than those qu
 
 ___
 
-### Collective Service
+### Collective AI Service
 
-A composition of narrow AI systems or modules (as defined in the dictionary) that in combination performs a specific task at a human level, without any single system that can perform tasks at a human level. 
+A composition of narrow AI systems or modules (as defined in the dictionary) that in combination performs a specific task at a human level, without any single system that can perform tasks at a human level. (As discussed by Eric Drexler.)
 
 Examples: 
 * A self-driving car composed of (1) a module that plans routes and outputs , (2) a module that ingests information and updates an environment, perhaps shared between cars, and (3) a module that drives the car along a route provided by module 1, while avoiding obstacles in the environment provided by module 2, is a collective service that allows self-driving cars despite each module being distinct.
 
 Non-examples:
+
+* Systems that can do individual tasks at human or superhuman levels, but are unable to be
+automatically combined in ways that allow human level performance at full jobs.
+* Artificial General Intelligence, as defined above. 
+
 
 ___
 
@@ -95,10 +121,11 @@ Amount of compute used to deploy a trained model, in petaflop/s.
 This is exclusive of compute used to further improve the system, but not compute used to maintain the system’s viability. 
 
 Examples: 
-* A self-driving car may ingest environmental data to update its environment model to avoid obstacles, and that process is necessary for operation. 
+* A self-driving car which ingests environmental data to update its environment model to avoid obstacles, and that process is necessary for operation. 
 
 Non-examples: 
-* A self-driving car may use experience to improve driving in the future, but this is not necessary for its operation.
+* A self-driving car may use experience as an input into a network to improve driving in the future, 
+but this step is not necessary for its operation.
 
 ___
 
@@ -130,6 +157,7 @@ The amount of compute used testing or training different architectures before th
 
 Examples:
 
+
 Non-examples:
 
 ___
@@ -151,23 +179,12 @@ ___
 The sum of the compute for architecture search, hyperparameter search, and training as defined above.
 
 Examples:
+* GPT was built using __ total compute, including architecture search, hyperparameter searche, and
+training.
+
 
 Non-examples:
-
-___
-
-### Credible technical announcement
-
-Any item in:
-* Blog-post co-authored by at least one of the researchers
-* Pre-print posted to arXiv or similar (that most researchers see as credible, or along with a working example of outputs or demo version of the system)
-* Peer-reviewed (published) paper
-* Second-hand report from a trusted source providing at least as much information as
-the median acceptable blog post
-
-Examples:
-
-Non-examples:
+* AlphaGo's reported total compute in the published papers, which excludes search.
 
 ___
 
@@ -175,9 +192,53 @@ ___
 
 An outlet widely viewed as a credible source publishes a news article that attests to something having happened. (Note: announcing that a researcher or company claims something, is potentially a [Credible technical announcement](#credible-technical-announcement), but not a credible media report in this sense.)
 
+Examples: 
+* Articles in CNN, Fox News, or the New York Times witnessing an event.
+* CNN reporting that AlphaGo won 4 of 5 matches against Lee Sedol
+
+Non-examples: 
+* Personal or Corporate blog-posts.
+* Preprints claiming results
+
+___
+
+### Credible technical announcement
+
+Any item in:
+* Blog-post co-authored by at least one of the researchers, or pre-print posted to arXiv or similar,
+along with either a working example of outputs or demo version of the system, or credible media 
+reports of the systems operation.
+* Peer-reviewed (published) paper in a well-known journal, even without outputs, demos, or media reports.
+* Second-hand report from a trusted academic or technical source providing at least as much information
+as the median acceptable blog post.
+
 Examples:
+* Arxiv preprint announcing AlphaGo, along with media reports of winning against high-level players.
 
 Non-examples:
+* ArXiv preprint announcing success at cold fusion.
+* Claims in media by the authors or designers.
+* Paper in a pay-to-publish, minimally peer-reviewed journal without working code or examples of output.
+
+___
+
+### Deep Learning
+
+(Disputed / Unclear) A set of techniques currently used in machine learning involving neural networks with many layers, and related structures.
+
+Definite Examples:
+* Neural Networks, including recurrent neural networks, convolutional neural networks, transformers, and similar with hundreds of layers
+
+Unclear / Disputed Examples:
+* Neural Networks with five or ten layers
+* Generative adversarial networks, which involve multiple neural networks
+* Future potential advances in machine learning that are in some ways similar to current neural networks.
+
+Non-examples:
+* Single layer neural networks
+* Linear regression
+* Theorized general intelligence systems based on other approaches.
+
 
 ___
 
@@ -241,6 +302,47 @@ Examples:
 Non-examples:
 * One neuron in a hidden layer in AlphaZero's neural net
 
+### Safe, Artificial Intelligence (Ambiguous / Disputed)
+
+A human designed system that does at least approximately what the designer and/or user intended it to do, without
+significant unwanted side effects.
+
+Examples:
+* AlphaGo
+
+Unclear examples:
+* Systems that have been experimentally verified to operate within planned constraints.
+* Systems which obey orders that should not be allowed, such as military systems being operated by 
+rogue factions without authorization.
+* Systems that refuse orders that they are given, which cannot be overridden, because the system decides 
+the outcome would be unacceptable.
+
+Non-Examples:
+* Humans
+* Anything in Victoria Kraknova's list of specification failures, where systems did not do what
+the designer intended. 
+(https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/)
+
+
+___
+
+### Scaling
+
+The ability of a system to operate better due solely to increased resources of a specific type or types.
+
+Examples:
+* A machine learning system improving at a task when given additional training data.
+* A neural network that improves due to increasing its size, spending more time on hyperparameter search,
+ or being given longer to train on data.
+ 
+Ambiguous Cases:
+* A system that is improved by changing from one structure or training type to a different type of
+ structure, such as the transition from AlphaGo to AlphaZero.
+
+Non-examples:
+* Improvement at a task due to fundamental breakthroughs or new structure types.
+
+
 ___
 
 ### Transformative Artificial Intelligence
@@ -276,5 +378,6 @@ The number of human-year-equivalents used in training by an algorithm. This metr
 * If the algorithm uses imitation learning, we do not include the years of experience required to produce the underlying data.
 
 Examples:
+* The OpenAI Five system was credibly technically reported to have used 10,000 years of human experience in training the system; https://arxiv.org/abs/1912.06680
 
 Non-examples:
