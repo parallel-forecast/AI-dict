@@ -9,7 +9,7 @@ The [**AI Forecasting Resolution Dictionary**](https://parallel-forecast.github.
 
 The future is big. To model and forecast it, we’re going to need to put probabilities on *a lot* of questions.
 
-The AI Dictionary is one piece of the puzzle for unlocking economies-of-scale for AI forecasting.
+The AI Dictionary is one piece of the puzzle for improving discussions about the future of AI, and for assisting comparability of different forecasts or elicitations. This is critical for improving collaboration, and for unlocking economies-of-scale for AI forecasting.
 
 ### Low overhead
 
