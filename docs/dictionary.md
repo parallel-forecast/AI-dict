@@ -59,7 +59,11 @@ Non-examples:
 
 ___
 
-### Alignment (Unclear / Disputed)
+### Alignment
+Unclear
+{: .label .label-red }
+Disputed
+{: .label .label-red }
 
 Def. 1 - Acting not only [Safe], but consistent with [General Human Values], and continuing to do so even after arbitrary [scaling] or change in circumstance. Compare [Safe].
 
@@ -71,7 +75,6 @@ Def. 2 - Acting in a maner considered [Safe] according to a specific set of goal
 Unclear examples:
 * Any provably limited system.
 
-
 Non examples:
 * Systems proven [Safe] in a given environment that can change, or empirically shown to be [Safe].
 
@@ -79,6 +82,10 @@ Non examples:
 ___
 
 ### Artificial General Intelligence (Unclear / Disputed)
+Unclear
+{: .label .label-red }
+Disputed
+{: .label .label-red }
 
 An artificial intelligence system that has capabilities similar to that of humans, 
 including the ability to learn arbitrary new tasks and perform them.
@@ -117,12 +124,17 @@ This includes either actual elimination of such jobs at costs less than those qu
 
 ___
 
-### Collective AI Service
+### Comprehensive AI Service (CAIS)
+Ambiguous
+{: .label .label-red }
 
-A composition of narrow AI systems or modules (as defined in the dictionary) that in combination performs a specific task at a human level, without any single system that can perform tasks at a human level. (As discussed by Eric Drexler.)
+A composition of Narrow AI systems or modules (as defined in the dictionary) that in combination performs a specific task at a human level, without any single system that can perform tasks at a human level. (As discussed by Eric Drexler.)
 
 Examples: 
 * A self-driving car composed of (1) a module that plans routes and outputs , (2) a module that ingests information and updates an environment, perhaps shared between cars, and (3) a module that drives the car along a route provided by module 1, while avoiding obstacles in the environment provided by module 2, is a collective service that allows self-driving cars despite each module being distinct.
+
+Ambiguous Examples: 
+* A collection of systems which are, or can be, automatically combined to autonomously perform tasks at or above a human level.
 
 Non-examples:
 
@@ -130,6 +142,10 @@ Non-examples:
 automatically combined in ways that allow human level performance at full jobs.
 * Artificial General Intelligence, as defined above. 
 
+
+
+Ambiguous
+{: .label .label-red }
 
 ___
 
@@ -176,7 +192,6 @@ The amount of compute used testing or training different architectures before th
 
 Examples:
 
-
 Non-examples:
 
 ___
@@ -204,6 +219,13 @@ training.
 
 Non-examples:
 * AlphaGo's reported total compute in the published papers, which excludes search.
+
+
+### Corrigibility 
+Unclear
+{: .label .label-red }
+
+The property of an AI system where the objective constrains it from taking actions that modify its own objective function in ways that undermine [Alignment]. 
 
 ___
 
@@ -261,12 +283,20 @@ Non-examples:
 ___
 
 ### Discontinuous Scaling (Unclear / Disputed)
+Unclear
+{: .label .label-red }
+Disputed
+{: .label .label-red }
 
 This refers to the hypothesis that at some point measured via external clock time, the capabilities of a system greatly increase in a way inconsistent with the trend up to that point. This does not require a true mathematical discontinuity, but does require a significant increase in growth rate, rather than continutation of an exponential growth. cf. [Scaling], [Foom]
 
 ___
 
-### Foom (Unclear / Disputed)
+### Foom
+Unclear
+{: .label .label-red }
+Disputed
+{: .label .label-red }
 
 The hypothesis that AI systems will reach a point where very rapid (but perhaps not discontinuous)
 progress occurs near the point at which AGI is acheived due to self-improvement or similar capabilities.
@@ -387,8 +417,26 @@ Progress, Artificial intelligence (Unclear)
 Improvements in capabilities due to scientiﬁc breakthroughs and Research and Development. (See: Grace et al. 2018) 
 
 ___
+### Overhang
+Ambiguous
+{: .label .label-red }
 
-### Safe, Artificial Intelligence (Ambiguous / Disputed)
+Overhang is a driver of [Discontinuous Scaling]. It refers to a situation where, when a goal is acheived, the resources needed for acheiving the goal are found to be far smaller than the state-of-the-art available at the time, creating a significant acceleration. 
+
+For example, if an algorithmic breakthrough solves a problem in a way that requires far less hardware than needed for the basic task, performance at that task would jump significantly. 
+
+Ambiguous Example:
+In computer Go, where once the basic problem of playing at a human level was solved by Alpha Go using large amounts of [compute], it was found that a smaller system would be able to do the same task, and AlphaGo Zero, then AlphaZero, exhibited significant improvements with the same amount of less hardware.
+
+See, for example, Strategic implications of openness in AI development (Bostrom, 2017)
+
+___
+
+### Safe, Artificial Intelligence
+Ambiguous
+{: .label .label-red }
+Disputed
+{: .label .label-red }
 
 A human designed system that does at least approximately what the designer and/or user intended it to do, without
 significant unwanted side effects.
@@ -431,6 +479,8 @@ Non examples:
 ___
 
 ### Scaling
+Ambiguous
+{: .label .label-red }
 
 The ability of a system to operate better due to increased resources of a specific type or types, even without a fundamental new insight or change in the system.
 
@@ -480,7 +530,11 @@ exclusive of that control system, data, etc. (cf. self-driving car along with th
 
 ___
 
-### Transformative Artificial Intelligence (Disputed / Unclear)
+### Transformative Artificial Intelligence
+Unclear
+{: .label .label-red }
+Disputed
+{: .label .label-red }
 
 AI that precipitates a transition comparable to (or more significant than) the agricultural or industrial revolution. (As suggested by [Karnofsky (2016)](https://www.openphilanthropy.org/blog/some-background-our-views-regarding-advanced-artificial-intelligence#Sec1).)
 
@@ -511,6 +565,18 @@ Non-examples:
 * Any AI system that exists as of 2019.
 
 ___
+
+### Value learning (Unclear)
+Unclear
+{: .label .label-red }
+
+The process of an AI system inductively learning goals that the system will pursue.
+
+(The term does not denote sucess, just the class of process used for the goal.)
+
+See: Nate Soars, "The Value Learning Problem" In: Ethics for Artificial Intelligence Workshop at 25th International Joint Conference on Artificial Intelligence
+
+Non-examples:
 
 ### Years of experience used by an algorithm
 
