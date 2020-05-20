@@ -59,7 +59,33 @@ Non-examples:
 
 ___
 
+### Alignment
+Unclear
+{: .label .label-red }
+Disputed
+{: .label .label-red }
+
+Def. 1 - Acting not only [Safe], but consistent with [General Human Values], and continuing to do so even after arbitrary [scaling] or change in circumstance. Compare [Safe].
+
+Proponents mostly agree that it is unclear if this is possible, and needs to be refined and better
+understood. It is also unclear what class of proof would be sufficient. 
+
+Def. 2 - Acting in a maner considered [Safe] according to a specific set of goals, and provably continuing to do so even after arbitrary [scaling] or changes in circumstance. The domain of proof needed is also unclear.
+
+Unclear examples:
+* Any provably limited system.
+
+Non examples:
+* Systems proven [Safe] in a given environment that can change, or empirically shown to be [Safe].
+
+
+___
+
 ### Artificial General Intelligence (Unclear / Disputed)
+Unclear
+{: .label .label-red }
+Disputed
+{: .label .label-red }
 
 An artificial intelligence system that has capabilities similar to that of humans, 
 including the ability to learn arbitrary new tasks and perform them.
@@ -98,12 +124,17 @@ This includes either actual elimination of such jobs at costs less than those qu
 
 ___
 
-### Collective AI Service
+### Comprehensive AI Service (CAIS)
+Ambiguous
+{: .label .label-red }
 
-A composition of narrow AI systems or modules (as defined in the dictionary) that in combination performs a specific task at a human level, without any single system that can perform tasks at a human level. (As discussed by Eric Drexler.)
+A composition of Narrow AI systems or modules (as defined in the dictionary) that in combination performs a specific task at a human level, without any single system that can perform tasks at a human level. (As discussed by Eric Drexler.)
 
 Examples: 
 * A self-driving car composed of (1) a module that plans routes and outputs , (2) a module that ingests information and updates an environment, perhaps shared between cars, and (3) a module that drives the car along a route provided by module 1, while avoiding obstacles in the environment provided by module 2, is a collective service that allows self-driving cars despite each module being distinct.
+
+Ambiguous Examples: 
+* A collection of systems which are, or can be, automatically combined to autonomously perform tasks at or above a human level.
 
 Non-examples:
 
@@ -111,6 +142,10 @@ Non-examples:
 automatically combined in ways that allow human level performance at full jobs.
 * Artificial General Intelligence, as defined above. 
 
+
+
+Ambiguous
+{: .label .label-red }
 
 ___
 
@@ -157,7 +192,6 @@ The amount of compute used testing or training different architectures before th
 
 Examples:
 
-
 Non-examples:
 
 ___
@@ -185,6 +219,13 @@ training.
 
 Non-examples:
 * AlphaGo's reported total compute in the published papers, which excludes search.
+
+
+### Corrigibility 
+Unclear
+{: .label .label-red }
+
+The property of an AI system where the objective constrains it from taking actions that modify its own objective function in ways that undermine [Alignment]. 
 
 ___
 
@@ -239,18 +280,65 @@ Non-examples:
 * Linear regression
 * Theorized general intelligence systems based on other approaches.
 
+___
+
+### Discontinuous Scaling (Unclear / Disputed)
+Unclear
+{: .label .label-red }
+Disputed
+{: .label .label-red }
+
+This refers to the hypothesis that at some point measured via external clock time, the capabilities of a system greatly increase in a way inconsistent with the trend up to that point. This does not require a true mathematical discontinuity, but does require a significant increase in growth rate, rather than continutation of an exponential growth. cf. [Scaling], [Foom]
+
+___
+
+### Foom
+Unclear
+{: .label .label-red }
+Disputed
+{: .label .label-red }
+
+The hypothesis that AI systems will reach a point where very rapid (but perhaps not discontinuous)
+progress occurs near the point at which AGI is acheived due to self-improvement or similar capabilities.
+Arguments for this include [Intelligence Explosion]. See discussion in Bostrom's Superintelligence.
+
+___
+
+### Full Automation
+
+When every human task, including both every extant [Job] and any future type of work, including creative
+and emotional tasks can be done by a [system] better than humans. 
+
+Note: Many have argued this implies [Artificial General Intelligence], but recent arguments note [Comprehensive AI Services] could accomplish this.
+
+___
+
+### General Human Values (Unclear / Disputed)
+
+Ultimate goals and constraints that either some human or all humans either espouse, or actually use operationally to guide actions. In the limit, this is related to "Coherent Extrapolated Volition" where given very large amounts of power, given effectively unlimited amounts of time to reflect and consider the impacts of actions and values, the resulting human values are coherent.
 
 ___
 
 ### High-level machine intelligence
 
-(As suggested by [Muehlhauser (2016)](https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/ai-timelines#What_are_we_trying_to_forecast).)
+A [system], per Muller and Bostrom, 2014, "that can carry out most human professions at least as well as
+a typical human." https://www.nickbostrom.com/papers/survey.pdf They noted that further specification
+would be helpful, but it "very likely implies being able to pass a classic Turing test."
 
-A system is a high-level machine intelligence if it can be used to [Automate](#automatable) at least 95% of [Jobs](#job).
+This was further specified by Meulhauser, 2016: A system is a high-level machine intelligence if it can
+be used to [Automate](#automatable) at least 95% of [Jobs](#job).
+https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/ai-timelines#What_are_we_trying_to_forecast
+
 
 Examples:
 
 Non-examples:
+
+___
+
+### Human Level AI
+
+See [Artificial General Intelligence]. (Used interchangably in Baum, Goertzel, & Goertzel, 2011.)
 
 ___
 
@@ -263,15 +351,34 @@ Human-machine intelligence parity is said to have been reached if there is a mac
 > A team of three expert interviewers will interact with a candidate machine system (MS) and three humans (3H). The humans will be graduate students in each of physics, mathematics and computer science from one of the top 25 research universities (per some recognized list), chosen independently of the interviewers. The interviewers will electronically communicate (via text, image, spoken word, or other means) an identical series of exam questions of their choosing over a period of two hours to the MS and 3H, designed to advantage the 3H. Both MS and 3H have full access to the internet, but no party is allowed to consult additional humans, and we assume the MS is not an internet-accessible resource. The exam will be scored blindly by a disinterested third party
 
 Examples: 
+* A future system that passes the test proposed by Aguirre.
 
 Non-examples:
 * Any actually implemented system, as of 2019. 
 
 ___
 
+### Human Task
+
+See: [Job]. In Greutzmacher et al 2019, this was "all tasks that humans are currently paid to do."
+
+Note: As discussed in that entry, the definition of [Job] changes over time.
+
+___
+
+### Intelligence Explosion
+
+Per I.J. Good, "Let an ultraintelligent machine be defined as a machine that can far surpass all the intellectual activities of any man however clever. Since the design of machines is one of these intellectual activities, an ultraintelligent machine could design even better machines; there would then unquestionably be an ‘intelligence explosion’, and the intelligence of man would be left far behind. Thus the first ultraintelligent machine is the last invention that man need ever make."
+
+See: [Foom]
+
+___
+
 ### Job
 
 One of the occupations [listed by the U.S. Bureau of Labor Statistics](https://web.archive.org/web/20190514175951/https://www.bls.gov/oes/current/oes_stru.htm).
+
+Note: The US Bureau of Labor Statistics uses the OES Structure, based on the NAICS, which "is periodically revised to reflect changes in the industrial structure of the U.S. and North American economy." For this reason, it changes over time, and the time or version should be specified. (For example, from 2012-2017, "Research and Development in Biotechnology"  was changed to "Research and Development in Biotechnology (except Nanobiotechnology)," and "Research and Development in Nanotechnology" was added. It currently (2019) has no category for Data Science or Machine Learning, which would presumably fall under "Custom Computer Programming Services."
 
 Examples:
 * Web Developer
@@ -280,6 +387,9 @@ Examples:
 * Electrician
 
 Non-examples:
+* Data Scientist
+* Statistician
+* Machine Learning Developer
 
 ___
 
@@ -302,7 +412,31 @@ Examples:
 Non-examples:
 * One neuron in a hidden layer in AlphaZero's neural net
 
-### Safe, Artificial Intelligence (Ambiguous / Disputed)
+Progress, Artificial intelligence (Unclear)
+
+Improvements in capabilities due to scientiﬁc breakthroughs and Research and Development. (See: Grace et al. 2018) 
+
+___
+### Overhang
+Ambiguous
+{: .label .label-red }
+
+Overhang is a driver of [Discontinuous Scaling]. It refers to a situation where, when a goal is acheived, the resources needed for acheiving the goal are found to be far smaller than the state-of-the-art available at the time, creating a significant acceleration. 
+
+For example, if an algorithmic breakthrough solves a problem in a way that requires far less hardware than needed for the basic task, performance at that task would jump significantly. 
+
+Ambiguous Example:
+In computer Go, where once the basic problem of playing at a human level was solved by Alpha Go using large amounts of [compute], it was found that a smaller system would be able to do the same task, and AlphaGo Zero, then AlphaZero, exhibited significant improvements with the same amount of less hardware.
+
+See, for example, Strategic implications of openness in AI development (Bostrom, 2017)
+
+___
+
+### Safe, Artificial Intelligence
+Ambiguous
+{: .label .label-red }
+Disputed
+{: .label .label-red }
 
 A human designed system that does at least approximately what the designer and/or user intended it to do, without
 significant unwanted side effects.
@@ -319,40 +453,99 @@ the outcome would be unacceptable.
 
 Non-Examples:
 * Humans
-* Anything in Victoria Kraknova's list of specification failures, where systems did not do what
-the designer intended. 
-(https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/)
+* Anything in (Victoria Kraknova's list)[https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/] of specification failures, 
+where systems did not do what the designer intended. 
+
+___
+
+### Safety Research, Artificial Intelligence
+
+Research intended to ensure future [Artificial General Intelligence] is safe, or that alternatives 
+are found. 
+
+Examples:
+* MIRI's technical AI Safety research
+* Paul Christiano's Interated Amplification
+* Work doen by safety research teams at AI research organizations such as DeepMind and OpenAI.
+
+Unclear Examples:
+* Explainable AI Research
+
+Non examples:
+* Algorithmic Bias Research
+* [Self Driving Car] safety and development
 
 
 ___
 
 ### Scaling
+Ambiguous
+{: .label .label-red }
 
-The ability of a system to operate better due solely to increased resources of a specific type or types.
+The ability of a system to operate better due to increased resources of a specific type or types, even without a fundamental new insight or change in the system.
 
 Examples:
 * A machine learning system improving at a task when given additional training data.
-* A neural network that improves due to increasing its size, spending more time on hyperparameter search,
- or being given longer to train on data.
+* A neural network that improves due to increasing its size, spending more time on [Compute, architecture search], [Compute, hyperparameter search], or [Compute, training].
  
 Ambiguous Cases:
 * A system that is improved by changing from one structure or training type to a different type of
- structure, such as the transition from AlphaGo to AlphaZero.
+ structure, such as the transition from AlphaGo to AlphaZero. 
+* A system that self-modifies in ways not originally planned.
 
 Non-examples:
-* Improvement at a task due to fundamental breakthroughs or new structure types.
+* A system's increasing in capabilities when given more [Compute, operational], such as the improvement
+from giving AlphaGo more time to consider each move, or relaxing restrictions, such as removing APM limits
+from OpenAI Five.
+* Self-modification via automated parameter search given a specific set of hardware reseources, such as
+"Learning to learn by gradient descent by gradient descent" https://arxiv.org/abs/1606.04474
+* Improvement at a task by a new or modified [system] due to fundamental breakthroughs or new 
+structure types.
+
+___
+
+### Self Driving Car
+
+Per a SAE International report, J3016, Taxonomy and Definitions for Terms Related to On-Road Motor Vehicle
+Automated Driving Systems, there are six levels of self-driving, numbered 0-5. When used without qualification, this refers to Level 5, "full automation under all roadway and environmental conditions that can be managed by a human driver."
+
+___
+
+### System
+
+A single set of extant computer-based artificial programs (machine learning or otherwise) and the devices and hardware needed to run it, to accomplish a given task. This includes the trained parameters, architecture, and so on, but not the system or architecture needed to find those values.
+
+Examples:
+* DeepBlue, AlphaGo, Boston Dynamics' Atlas Robot
+* A self-driving car along with all remote computing devices and data needed for its operation.
+
+Non-examples:
+* AIXI
+* Terminator, Skynet, etc.
+* Any planned future systems or abilities that cannot currently be used.
+* Any robot that needs instructions from a human to accompish its assigned task.
+* A robot that can accomplish a task autonomously when connected to a control system, data, etc.
+exclusive of that control system, data, etc. (cf. self-driving car along with the control system, above)
 
 
 ___
 
 ### Transformative Artificial Intelligence
+Unclear
+{: .label .label-red }
+Disputed
+{: .label .label-red }
 
 AI that precipitates a transition comparable to (or more significant than) the agricultural or industrial revolution. (As suggested by [Karnofsky (2016)](https://www.openphilanthropy.org/blog/some-background-our-views-regarding-advanced-artificial-intelligence#Sec1).)
+
+Per Greutzmacher, 2019, "AI that significantly transforms society by replacing humans for a large portion (i.e., 50% or greater) of economically useful work"
 
 Note that a TAI system is not necessarily an AGI system, as long as its impact mediated by narrow capabilities is sufficiently transformative (as was e.g. the case for inventions during the original agricultural and industrial revolutions). 
 
 Examples:
-* AI systems capable of fulfilling all the necessary functions of human scientists, unaided by humans, in developing another technology (or set of technologies) that ultimately becomes widely credited with being the most significant driver of a transition comparable to (or more significant than) the agricultural or industrial revolution. Note that just because AI systems *could* accomplish such a thing unaided by humans doesn’t mean they *would*; it’s possible that human scientists would provide an important complement to such systems, and could make even faster progress working in tandem than such systems could achieve unaided. 
+* AI systems capable of fulfilling all the necessary functions of human scientists, unaided by humans, in developing another technology (or set of technologies) that ultimately becomes widely credited with being the most significant driver of a transition comparable to (or more significant than) the agricultural or industrial revolution. 
+
+Note that just because AI systems *could* accomplish such a thing unaided by humans doesn’t mean they *would*; it’s possible that human scientists would provide an important complement to such systems, and could make even faster progress working in tandem than such systems could achieve unaided. 
 
 Karnofsky (2016) emphasizes the hypothetical possibility of AI systems conducting substantial unaided research to draw a clear distinction from the types of AI systems that exist today. He believes that AI systems capable of such broad contributions to the relevant research would likely dramatically accelerate it.
 
@@ -364,10 +557,26 @@ Aside from the fact that this would likely be sufficient for a major economic tr
 
 (This contrasts with the first point because it refers to transformative technology that is itself AI-centric, whereas the first point refers to AI used to speed research on some other transformative technology.)
 
+Ambiguous Examples:
+* Clearly narrow AI such as [Self Driving Car]s and factory automation reducing the workforce by more than 50%
+* A transition to Universal Basic Income that leads more than 50% of people currently working to stop doing so.
+
 Non-examples:
 * Any AI system that exists as of 2019.
 
 ___
+
+### Value learning (Unclear)
+Unclear
+{: .label .label-red }
+
+The process of an AI system inductively learning goals that the system will pursue.
+
+(The term does not denote sucess, just the class of process used for the goal.)
+
+See: Nate Soars, "The Value Learning Problem" In: Ethics for Artificial Intelligence Workshop at 25th International Joint Conference on Artificial Intelligence
+
+Non-examples:
 
 ### Years of experience used by an algorithm
 
@@ -378,6 +587,7 @@ The number of human-year-equivalents used in training by an algorithm. This metr
 * If the algorithm uses imitation learning, we do not include the years of experience required to produce the underlying data.
 
 Examples:
-* The OpenAI Five system was credibly technically reported to have used 10,000 years of human experience in training the system; https://arxiv.org/abs/1912.06680
+* The OpenAI Five system was [credibly technically reported] [in a paper](https://arxiv.org/abs/1912.06680) to have used 10,000 years of human experience in training the system; 
 
 Non-examples:
+* The OpenAI Five system [ran for 10 months of training time](https://arxiv.org/abs/1912.06680)
